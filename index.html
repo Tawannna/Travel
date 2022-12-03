@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/098d08eadf.js" crossorigin="anonymous"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/utility.css">
+
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+
+  <title>Travel with Tawan</title>
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container flex">
+      
+      <a class = "site-brand" href="index.html">
+        TRAVEL<span>TAWAN</span>
+      </a>
+
+      <button class="flex" type="button" id="navbar-show-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+      
+      <div id="navbar-collapse">
+        
+        <button class="flex" type="button" id="navbar-close-btn" >
+          <i class="fas fa-times"></i>
+        </button>
+  
+        <ul class="navbar-nav">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Contact</a>
+          </li>
+          
+          
+        </ul>
+      
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Header -->
+  <header class="flex">
+    <div class="container">
+      
+      <div class="header-title">
+        <h1>ท่องเที่ยวไทย</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti est quas impedit ratione id culpa vitae hic tempora incidunt quod.</p>
+      </div>
+      <div class="header-form">
+        <h3>รับข่าวสารการท่องเที่ยวเพิ่มเติม</h3>
+        <form class="flex">
+          <input class="form-control" type="email" placeholder="EnterEmail" >
+          <input class="btn" type="submit" value="Submit">
+        </form>
+      </div>
+
+    </div>
+  </header>
+  <!-- Header End -->
+
+  <!-- Popular Location  -->
+  <div class="popular-container">
+    <div class="container">
+      
+      <div class="popular-title flex">
+        <h2>สถานที่ท่องเที่ยวสุดฮิต</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis vel earum culpa? Et, veniam rem necessitatibus voluptates illum deserunt totam?</p>
+      </div>
+
+      <div class="popular-item-container flex">
+        
+        <div class="popular-item-1 popular-item ">
+          <img src="img/poo.jpg" alt="">
+          <h3>ภูกระดึง จังหวัดเลย</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, molestias.</p>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <div class="popular-location-container">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Loey</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="popular-item-1 popular-item ">
+          <img src="img/tlosoo.jpg" alt="">
+          <h3>น้ำตกทีลอซู จังหวัดตาก</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, molestias.</p>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <div class="popular-location-container">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Loey</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="popular-item-1 popular-item ">
+          <img src="img/poo.jpg" alt="">
+          <h3>หาดถ้ำพระนาง จังหวัดกระบี่</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, molestias.</p>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <div class="popular-location-container">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Loey</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <p align="center">
+        <a class="btn popular-btn" href="popular.html">ดูเพิ่มเติม</a>
+      </p>
+
+    </div>
+  </div>
+  <!-- End Popular Location -->
+
+  <!-- Package Promotion  -->
+  <div class="package-container container">
+    
+    <div class="package-header flex">
+      <h1>Recommend location and Packages promotion</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit, rerum labore provident aperiam esse quis accusamus. Itaque, voluptates inventore?</p>
+    </div>
+
+    <div class="package-item-container grid">
+      
+      <img src="img/package-1.jpg" alt="">
+
+      <div class="package-content-details">
+        
+        <h2>Hotel in nature</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia totam quaerat similique eos neque dicta!</p>
+        <div class="package-detail">
+          <i class="fas fa-clock"></i>
+          7day |
+          <i class="fas fa-user-friends"></i>
+          3 |
+          <i class="fa-solid fa-location-dot"></i>
+          Tak
+        </div>
+      
+      </div>
+      
+      <div class="package-content-price">
+          <h2>฿3500/person</h2>
+          <a href="">ดูเพิ่มเติมเติม</a>
+      </div>
+    </div>
+
+    <div class="package-item-container grid">
+      
+      <img src="img/package-1.jpg" alt="">
+
+      <div class="package-content-details">
+        
+        <h2>Hotel in nature</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia totam quaerat similique eos neque dicta!</p>
+        <div class="package-detail">
+          <i class="fas fa-clock"></i>
+          7day |
+          <i class="fas fa-user-friends"></i>
+          3 |
+          <i class="fa-solid fa-location-dot"></i>
+          Tak
+        </div>
+      
+      </div>
+      
+      <div class="package-content-price">
+          <h2>฿3500/person</h2>
+          <a href="">ดูเพิ่มเติมเติม</a>
+      </div>
+    </div>
+
+    <div class="package-item-container grid">
+      
+      <img src="img/package-1.jpg" alt="">
+
+      <div class="package-content-details">
+        
+        <h2>Hotel in nature</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia totam quaerat similique eos neque dicta!</p>
+        <div class="package-detail">
+          <i class="fas fa-clock"></i>
+          7day |
+          <i class="fas fa-user-friends"></i>
+          3 |
+          <i class="fa-solid fa-location-dot"></i>
+          Tak
+        </div>
+      
+      </div>
+      
+      <div class="package-content-price">
+          <h2>฿3500/person</h2>
+          <a href="">ดูเพิ่มเติมเติม</a>
+      </div>
+    </div>
+
+    <p align="center">
+      <a class="btn popular-btn" href="#">Other Packages</a>
+    </p>
+  
+  
+  </div>
+  <!-- End Package Promotion -->
+
+  <!-- Review -->
+
+  <section>
+    <div class="container">
+      <h1 class="header-reviews">CLIENT'S REVIEWS</h1>
+      <p class="paragraph-reviews">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel adipisci labore velit voluptatem aperiam neque consectetur vitae vero, <br> voluptatibus dicta corrupti explicabo quam eaque exercitationem?</p>
+    </div>
+  </section>
+
+  <div class="wrapper">
+    <div class="carousel owl-carousel">
+      <div class="card card-1">
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione ducimus quod molestiae sed facere officiis?</p>
+        <div class="rating-profile">
+          
+          <div class="user one"></div>
+          <div class="user-name">
+            <p>William Wright</p>
+            <span>travellers</span>
+          </div>
+        </div>
+      </div>
+      <div class="card card-2">
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione ducimus quod molestiae sed facere officiis?</p>
+        <div class="rating-profile">
+          
+          <div class="user one"></div>
+          <div class="user-name">
+            <p>Alison White</p>
+            <span>travellers</span>
+          </div>
+        </div>
+      </div>
+      <div class="card card-3">
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione ducimus quod molestiae sed facere officiis?</p>
+        <div class="rating-profile">
+          
+          <div class="user one"></div>
+          <div class="user-name">
+            <p>George Smith</p>
+            <span>travellers</span>
+          </div>
+        </div>
+      </div>
+      <div class="card card-4">
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione ducimus quod molestiae sed facere officiis?</p>
+        <div class="rating-profile">
+          
+          <div class="user one"></div>
+          <div class="user-name">
+            <p>John Doe</p>
+            <span>travellers</span>
+          </div>
+        </div>
+      </div>
+      <div class="card card-5">
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione ducimus quod molestiae sed facere officiis?</p>
+        <div class="rating-profile">
+          
+          <div class="user one"></div>
+          <div class="user-name">
+            <p>Phakin Eng</p>
+            <span>travellers</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- End Reviews -->
+
+  <!-- Footer -->
+
+  <section class="footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="">
+          <h4>About</h4>
+          <p>Travel|Tawan</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Perferendis placeat deleniti sunt iusto explicabo dicta.</p>
+        </div>
+        <div class="footer-recommend">
+          <h4>แนะนำสถานที่ท่องเที่ยว</h4>
+          <ul>
+            <li><a href="#">สถานที่ท่องเที่ยวแนะนำ</a></li>
+            <li><a href="#">สถานที่ท่องเที่ยวสุดฮิต</a></li>
+            <li><a href="#">สถานที่ท่องเที่ยวราถูก</a></li>
+            <li><a href="#">โปรโมชั่นสถานที่ท่องเที่ยว</a></li>
+          </ul>
+        </div>
+        <div class="">
+          <h4>เริ่มต้นใช่งานเว็บไซต์</h4>
+          <p><a href="">วิธีใช่งาน</a></p>
+          <p><a href="">การชำระเงิน</a></p>
+          <p><a href="">คำถามที่พบบ่อย</a></p>
+        </div>
+        <div class="">
+          <h4>ติดต่อเรา</h4>
+          <p>tel:000-000-0000 <br>
+            Line id : @traveltawan
+          </p>
+          <div class="footer-contact">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-line"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  
+  <!-- EndFooter -->
+
+  <script>
+    $(".carousel").owlCarousel({
+      margin:10,
+      loop:true,
+      autoplay:true,
+      autoplayTimeout:2000,
+      autoplayHoverPause:true,
+      responsive:{
+        0:{
+          items:1,
+          nav:false
+        },
+        600:{
+          items:2,
+          nav:false
+        },
+        1000:{
+          items:3,
+          nav:false
+        },
+      }
+    });
+  </script>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
